@@ -25,3 +25,56 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/*Here's my solution*/
+
+.header {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(92, 84, 84);
+}
+
+.left-links {
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
+}
+
+.left-links, .right-links {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*background-color: aqua;*/
+}
+
+.footer {
+  display: flex;
+  background-color: #eeeeee;
+}
